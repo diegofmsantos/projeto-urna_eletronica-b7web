@@ -22,27 +22,27 @@ let etapas = [
         ]
     },
     {
-        titulo: 'PREFEITO',
+        titulo: 'PRESIDENTE',
         numeros: 2,
         candidatos: [
             {
-                numero: '99',
-                nome: 'Ciclano',
-                partido: 'ABC',
-                vice: 'Cic',
+                numero: '22',
+                nome: 'Jair Messias Bolsonaro',
+                partido: 'Partido Liberal',
+                vice: 'Braga Netto',
                 fotos:[
-                    {url:'99.jpg', legenda: 'Prefeito'},
-                    {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'images/bolsonaro.jpg', legenda: 'Presidente'},
+                    {url:'images/Braga-Netto.png', legenda: 'Vice-Presidente', small: true}
                 ]
             },
             {
-                numero: '84',
-                nome: 'Zulano',
-                partido: 'QWERTY',
-                vice: 'Zul',
+                numero: '66',
+                nome: 'Luladrão',
+                partido: 'MTST',
+                vice: 'Xandao',
                 fotos:[
-                    {url:'84.jpg', legenda: 'Prefeito'},
-                    {url:'84_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'lula-ladrao.png', legenda: 'Presidente'},
+                    {url:'xandao.jpg', legenda: 'Vice-Presidente', small: true}
                 ]
             },
         ]
