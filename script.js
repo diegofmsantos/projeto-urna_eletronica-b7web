@@ -12,6 +12,7 @@ function comecarEtapa() {
     let etapa = etapas[etapaAtual]
 
     let numeroHtml = ''
+    let numero = ''
 
     for(let i=0; i<etapa.numeros;i++) {
         if(i === 0) {
@@ -49,6 +50,10 @@ function atualizaInterface() {
         for (let i in candidato.fotos)
             fotosHtml += `<div class="d-1-image"><img src="images/${candidato.fotos[i].url}" alt="Jair Bolsonaro">${candidato.fotos[i].legenda}</div>`
         lateral.innerHTML = fotosHtml
+    } else {
+        seuVotoPara.style.display = 'block'
+        aviso.style.display = 'block'
+        descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO<div/>'
     }
 }
 
@@ -72,7 +77,7 @@ function branco() {
 }
 
 function corrige() {
-    alert('Clicou em CORRIGE')
+    comecarEtapa()
 }
 
 function confirma() {
