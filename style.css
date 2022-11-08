@@ -160,3 +160,11 @@ body {
     font-size: 35px;
     font-weight: bold;
 }
+
+.aviso--gigante {
+    font-size: 70px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

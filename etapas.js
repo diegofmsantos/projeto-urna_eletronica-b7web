@@ -27,12 +27,12 @@ let etapas = [
         candidatos: [
             {
                 numero: '22',
-                nome: 'Jair Messias Bolsonaro',
-                partido: 'Partido Liberal',
+                nome: 'Jair Bolsonaro',
+                partido: 'Liberal',
                 vice: 'Braga Netto',
                 fotos:[
-                    {url:'images/bolsonaro.jpg', legenda: 'Presidente'},
-                    {url:'images/braga-netto.png', legenda: 'Vice-Presidente', small: true}
+                    {url:'bolsonaro.jpg', legenda: 'Presidente'},
+                    {url:'braga-netto.png', legenda: 'Vice-Presidente', small: true}
                 ]
             },
             {
